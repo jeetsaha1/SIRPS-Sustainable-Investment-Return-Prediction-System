@@ -5,6 +5,9 @@ project:
   version: "2.0"
   stage: prototype
   python_version: "3.12"
+  protocol_version: "0.1"
+  schema_version: "1.0"
+  random_seed: 2026
 
 paths:
   project_root: "."
@@ -42,3 +45,9 @@ market_regimes:
 application:
   framework: Streamlit
   investment_advice: false
+  data_mode: precomputed_only
+
+validation:
+  purge_trading_days: 63
+  embargo_trading_days: 5
+  final_holdout_runs: 1
