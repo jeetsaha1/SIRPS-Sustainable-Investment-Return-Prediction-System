@@ -1,0 +1,44 @@
+
+project:
+  name: SIRPS
+  full_name: Sustainable Investment Return Prediction System
+  version: "2.0"
+  stage: prototype
+  python_version: "3.12"
+
+paths:
+  project_root: "."
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  serving_data: "data/serving"
+  results: "results"
+  models: "models"
+
+market:
+  country: India
+  exchange: NSE
+  benchmark: NIFTY 50 TRI
+  forecast_horizon: 63
+
+universe:
+  minimum_companies: 15
+  target_companies: 25
+  maximum_companies: 30
+
+modeling:
+  primary_target: forward_excess_log_return
+  secondary_target: absolute_log_return
+  models:
+    - Ridge
+    - RandomForest
+    - XGBoost
+
+market_regimes:
+  - Bull
+  - Neutral
+  - Bear
+
+application:
+  framework: Streamlit
+  investment_advice: false
