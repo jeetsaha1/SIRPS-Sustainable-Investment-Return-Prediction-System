@@ -1,0 +1,13 @@
+status: synthetic_initialization_pilot
+seed: 2026
+companies:
+  - SYN001
+  - SYN002
+benchmark: NIFTY50_TRI_SYNTHETIC
+source_label: synthetic_pilot
+is_real_market_data: false
+required_outputs:
+  - prices_daily
+  - model_dataset
+  - predictions
+  - dashboard_serving

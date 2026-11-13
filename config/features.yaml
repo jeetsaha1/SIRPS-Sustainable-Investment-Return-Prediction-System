@@ -1,0 +1,57 @@
+
+version: "1.0"
+primary_target: y_excess
+secondary_target: y_abs
+
+sampling:
+	step_trading_days: 5
+	horizon_trading_days: 63
+	entry_offset_trading_days: 1
+	exit_offset_trading_days: 64
+
+groups:
+	technical:
+		- return_5d
+		- return_21d
+		- return_63d
+		- return_126d
+		- momentum_12_1
+		- price_to_ma50
+		- price_to_ma200
+		- volatility_63d
+		- beta_126d
+		- rsi_14
+		- volume_ratio_21_126
+		- max_drawdown_126d
+		- log_traded_value
+	fundamental:
+		- revenue_growth_yoy
+		- net_margin
+		- roe
+		- roa
+		- debt_to_equity
+		- interest_coverage
+		- eps_growth
+		- operating_cash_flow_to_assets
+		- earnings_yield
+		- book_to_price
+		- log_market_cap
+		- days_since_last_filing
+	market:
+		- nifty_return_21d
+		- nifty_return_63d
+		- nifty_volatility_21d
+		- india_vix
+		- india_vix_change_21d
+		- nifty_drawdown
+		- confirmed_regime
+	esg:
+		- ESG01
+		- ESG02
+		- ESG03
+		- ESG04
+		- ESG05
+		- ESG06
+		- ESG07
+		- ESG08
+		- esg_coverage_ratio

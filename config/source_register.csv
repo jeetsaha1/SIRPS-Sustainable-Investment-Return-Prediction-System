@@ -1,0 +1,8 @@
+source_id,domain,source_name,primary_or_fallback,licence_or_terms,coverage_period,verification_status,verified_by,notes
+SRC001,market,NSE historical downloads,primary,,2014-present,pending,,,Verify access, fields, and terms in Week 1
+SRC002,market,NSE Indices historical data,primary,,2014-present,pending,,,NIFTY TRI, VIX, and sector indices
+SRC003,market,yfinance cached cross-check,fallback,,2014-present,pending,,,Convenience validation only; not source of truth
+SRC004,fundamentals,Exchange XBRL financial-results filings,primary,,2014-present,pending,,,Point-in-time filing timestamps required
+SRC005,esg,Exchange BRSR filings,primary,,2021-present,pending,,,Structured extraction preferred
+SRC006,esg,Company BRSR PDF filings,fallback,,2021-present,pending,,,Double-entry QA required
+SRC007,risk_free,RBI 91-day T-bill yield,primary,,2014-present,pending,,,Release date and licence verification required

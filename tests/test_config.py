@@ -1,4 +1,3 @@
-
 import csv
 from pathlib import Path
 
@@ -66,7 +65,6 @@ def test_esg_directionality():
         assert row["directionality"] in allowed
 
 
-
 def test_universe_schema():
     path = ROOT / "config" / "universe.csv"
 
@@ -86,7 +84,6 @@ def test_universe_schema():
     }
 
     assert required.issubset(columns)
-
 
 
 def test_universe_allows_initial_empty_template():

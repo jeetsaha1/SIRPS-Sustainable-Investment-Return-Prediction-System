@@ -1,0 +1,2 @@
+run_id,git_commit,config_hash,data_version,seed,experiment,model,status,created_at,notes
+pilot-2026,uncommitted,initialization-v1,synthetic-pilot-v1,2026,A,Ridge,completed,2026-11-14,Synthetic initialization pilot; not historical NSE evidence

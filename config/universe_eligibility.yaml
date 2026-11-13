@@ -1,0 +1,35 @@
+version: "1.0"
+status: draft_for_review
+owner: M1
+reviewers:
+  - M2
+  - M5
+
+scope:
+  market: Indian NSE main-board equities
+  minimum_companies: 15
+  target_companies: 25
+  maximum_companies: 30
+  liquidity_floor_inr_crore: 1.0
+
+eligibility:
+  minimum_price_history_trading_days: 252
+  qualifying_activity_share_percent: 50
+  transition_activity_share_min_percent: 30
+  transition_activity_share_max_percent: 50
+  required_filings_latest_years: 2
+  evidence_required: true
+  independent_reviewers_required: 2
+
+approved_activities:
+  - renewable power generation
+  - electric vehicle and battery manufacturing
+  - water and wastewater treatment
+  - waste management and recycling
+  - grid and energy-efficiency solutions
+
+rules:
+  freeze_universe_before_model_results: true
+  retain_delisted_or_merged_until_last_trading_date: true
+  never_use_price_performance_as_eligibility_evidence: true
+  transition_companies_in_core_universe: false
