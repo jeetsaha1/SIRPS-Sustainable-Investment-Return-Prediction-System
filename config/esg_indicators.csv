@@ -1,0 +1,9 @@
+﻿indicator_id,indicator_name,esg_pillar,definition,calculation_method,standard_unit,preferred_source,directionality,validation_rule
+ESG01,Renewable Energy Share,Environmental,Share of total energy consumption obtained from renewable sources,Renewable energy consumption / Total energy consumption * 100,percentage,BRSR Principle 6,positive,Must be between 0 and 100
+ESG02,Energy Intensity,Environmental,Energy consumed relative to revenue,Total energy consumption in MWh / Revenue in INR crore,MWh_per_INR_crore,BRSR Principle 6,negative,Must be non-negative
+ESG03,GHG Emissions Intensity,Environmental,Scope 1 and Scope 2 emissions relative to revenue,(Scope 1 emissions + Scope 2 emissions) in tCO2e / Revenue in INR crore,tCO2e_per_INR_crore,BRSR Principle 6,negative,Must be non-negative
+ESG04,Water Intensity,Environmental,Water consumption relative to revenue,Total water consumption in kilolitres / Revenue in INR crore,KL_per_INR_crore,BRSR Principle 6,negative,Must be non-negative
+ESG05,Waste Recovery Rate,Environmental,Share of total waste generated that is reused recycled or recovered,(Waste reused + Waste recycled + Waste recovered) / Total waste generated * 100,percentage,BRSR Principle 6,positive,Must be between 0 and 100
+ESG06,Lost Time Injury Frequency Rate,Social,Frequency of lost time injuries relative to employee working hours,Lost time injuries / Total person hours worked * 1000000,injuries_per_million_hours,BRSR Principle 3,negative,Must be non-negative
+ESG07,Women in Workforce,Social,Percentage of total workforce represented by women,Number of women employees / Total employees * 100,percentage,BRSR Principle 5,positive,Must be between 0 and 100
+ESG08,Independent Directors Percentage,Governance,Percentage of board members who are independent directors,Number of independent directors / Total board directors * 100,percentage,BRSR Principle 1,positive,Must be between 0 and 100

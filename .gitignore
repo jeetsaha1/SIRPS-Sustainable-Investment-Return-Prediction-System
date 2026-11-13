@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+
+# Local caches
+.cache/
+pip-cache/
+__pycache__/
+
+# Temporary files
+*.tmp
+*.log
+
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff cache
+.ruff_cache/
+# Python generated files
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Dataset files (keep directory placeholders)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/serving/*
+!data/serving/.gitkeep
+
+# Generated model files (keep directory placeholder)
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Generated results (keep placeholders)
+results/backtest/*
+!results/backtest/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+results/predictions/*
+!results/predictions/.gitkeep

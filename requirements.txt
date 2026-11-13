@@ -1,0 +1,37 @@
+
+# Data processing
+numpy
+pandas
+pyarrow
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Statistical analysis
+scipy
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dashboard
+streamlit
+
+# ESG document processing
+pdfplumber
+lxml
+
+# Model persistence
+joblib
+
+# Development and testing
+pytest
+ruff
+black
+pre-commit
+
+# Configuration
+PyYAML
