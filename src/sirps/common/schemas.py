@@ -93,6 +93,16 @@ SCHEMAS: dict[str, tuple[str, ...]] = {
         "model_version",
         "data_cutoff",
     ),
+    "latent_profiles": (
+        "latent_id",
+        "company_id",
+        "market_factor",
+        "financial_factor",
+        "esg_factor",
+        "risk_factor",
+        "seed",
+        "source_label",
+    ),
 }
 
 ALLOWED_ESG_STATUSES = frozenset({"value", "NA", "NR", "NC"})

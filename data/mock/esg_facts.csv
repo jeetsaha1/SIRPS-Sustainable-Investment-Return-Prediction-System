@@ -1,0 +1,17 @@
+company_id,fiscal_year,indicator_id,value,unit_raw,unit_std,status,source_doc,page,filed_timestamp,available_date,restated_flag,entered_by,verified_by
+SYN001,2019,ESG01,11.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG02,12.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG03,13.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG04,14.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG05,15.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG06,16.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG07,17.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN001,2019,ESG08,18.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG01,11.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG02,12.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG03,13.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG04,14.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG05,15.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG06,16.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG07,17.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+SYN002,2019,ESG08,18.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1

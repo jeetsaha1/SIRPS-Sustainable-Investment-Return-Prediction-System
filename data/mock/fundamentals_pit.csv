@@ -1,0 +1,5 @@
+company_id,period_end,period_type,item,value,basis,filed_timestamp,available_date
+SYN001,2019-12-31,annual,revenue,1000.0,consolidated,2020-02-15T10:00:00,2020-02-18
+SYN001,2019-12-31,annual,net_margin,0.12,consolidated,2020-02-15T10:00:00,2020-02-18
+SYN002,2019-12-31,annual,revenue,1000.0,consolidated,2020-02-15T10:00:00,2020-02-18
+SYN002,2019-12-31,annual,net_margin,0.12,consolidated,2020-02-15T10:00:00,2020-02-18
