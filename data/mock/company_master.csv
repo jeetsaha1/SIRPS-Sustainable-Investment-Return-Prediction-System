@@ -1,0 +1,3 @@
+company_id,name,isin,nse_symbol,sector,sub_sector,universe_group,eligibility_evidence,entry_date,exit_date
+SYN001,Synthetic Renewable One,SYNTH001,SYN1,Energy,Renewable Energy,core,Synthetic pilot record; not an NSE company,2020-01-02,
+SYN002,Synthetic Water Systems,SYNTH002,SYN2,Utilities,Water Treatment,core,Synthetic pilot record; not an NSE company,2020-01-02,
