@@ -1,5 +1,5 @@
 # Sustainable Investment Return Prediction System (SIRPS)
-# Core dependencies pinned for Python 3.10 / 3.11 environment
+# Core dependencies for the Python 3.12 environment
 
 streamlit>=1.30.0,<2.0.0
 pandas>=2.0.0,<3.0.0

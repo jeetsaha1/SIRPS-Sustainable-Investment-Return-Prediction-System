@@ -34,7 +34,7 @@ Member 1 serves as the **Project Lead & Integrator** for the SIRPS research init
 SIRPS/
 ├── app.py                             # Main Streamlit application router (10 modules)
 ├── dev_run.py                         # Single-module development runner
-├── requirements.txt                   # Pinned environment dependencies (Python 3.10/3.11)
+├── requirements.txt                   # Environment dependencies for Python 3.12
 ├── pytest.ini                         # Pytest configuration
 ├── README.md                          # Quickstart guide, architectural overview, and run instructions
 ├── common/                            # Core shared infrastructure (Owner: M1)

@@ -90,7 +90,7 @@ $$\mathbf{X}_{i,t} = \begin{bmatrix} \text{ESG}_{i,t} \\ \text{Quality}_{i,t} \\
 
 ## 5. Technology Stack
 
-- **Core Runtime:** Python 3.10 / 3.11
+- **Core Runtime:** Python 3.12
 - **Scientific Computing & Linear Algebra:** NumPy (`>=1.24.0`), SciPy (`>=1.10.0`), Pandas (`>=2.0.0`)
 - **Web Application & Interactive Visualization:** Streamlit (`>=1.30.0`), Plotly (`>=5.18.0`)
 - **Testing & Quality Assurance:** Pytest (`>=7.4.0`), Python `compileall`
@@ -178,8 +178,8 @@ cd SIRPS-Sustainable-Investment-Return-Prediction-System
 # Checkout Member 1 integration branch
 git checkout member-1-integration
 
-# Create and activate a virtual environment
-python -m venv venv
+# Create and activate a Python 3.12 virtual environment
+python3.12 -m venv venv
 .\venv\Scripts\Activate.ps1
 
 # Install pinned dependencies
