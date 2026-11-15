@@ -1,17 +1,21 @@
-company_id,fiscal_year,indicator_id,value,unit_raw,unit_std,status,source_doc,page,filed_timestamp,available_date,restated_flag,entered_by,verified_by
-SYN001,2019,ESG01,11.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG02,12.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG03,13.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG04,14.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG05,15.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG06,16.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG07,17.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN001,2019,ESG08,18.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG01,11.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG02,12.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG03,13.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG04,14.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG05,15.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG06,16.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG07,17.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
-SYN002,2019,ESG08,18.0,synthetic_unit,percentage,value,synthetic_mock_brsr,1,2020-02-15T10:00:00,2020-02-18,False,M1,M1
+fact_id,company_id,fiscal_year,indicator_id,indicator_name,pillar,unit,value,status,source_doc,source_page,filed_date,available_date,data_source
+1,C01,FY2023-24,renewable_share_pct,Renewable energy share,E,%,,NR,BRSR_SYNTH_C01_FY2023-24.pdf,20,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+2,C02,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,43.46,value,BRSR_SYNTH_C02_FY2023-24.pdf,21,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+3,C03,FY2023-24,emission_intensity,GHG emission intensity,E,tCO2e per Rs cr,38.58,value,BRSR_SYNTH_C03_FY2023-24.pdf,22,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+4,C04,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,32.61,value,BRSR_SYNTH_C04_FY2023-24.pdf,23,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+5,C05,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,57.27,value,BRSR_SYNTH_C05_FY2023-24.pdf,24,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+6,C06,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,37.14,value,BRSR_SYNTH_C06_FY2023-24.pdf,25,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+7,C07,FY2023-24,women_workforce_pct,Women in workforce,S,%,16.57,value,BRSR_SYNTH_C07_FY2023-24.pdf,26,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+8,C08,FY2023-24,independent_directors_pct,Independent directors,G,%,,NR,BRSR_SYNTH_C08_FY2023-24.pdf,27,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+9,C09,FY2023-24,renewable_share_pct,Renewable energy share,E,%,18.85,value,BRSR_SYNTH_C09_FY2023-24.pdf,28,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+10,C10,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,82.14,value,BRSR_SYNTH_C10_FY2023-24.pdf,29,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+11,C01,FY2023-24,emission_intensity,GHG emission intensity,E,tCO2e per Rs cr,78.14,value,BRSR_SYNTH_C01_FY2023-24.pdf,30,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+12,C02,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,62.48,value,BRSR_SYNTH_C02_FY2023-24.pdf,31,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+13,C03,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,29.94,value,BRSR_SYNTH_C03_FY2023-24.pdf,32,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+14,C04,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,82.69,value,BRSR_SYNTH_C04_FY2023-24.pdf,33,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+15,C05,FY2023-24,women_workforce_pct,Women in workforce,S,%,,NR,BRSR_SYNTH_C05_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+16,C06,FY2023-24,independent_directors_pct,Independent directors,G,%,68.41,value,BRSR_SYNTH_C06_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+17,C07,FY2023-24,renewable_share_pct,Renewable energy share,E,%,63.77,value,BRSR_SYNTH_C07_FY2023-24.pdf,36,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+18,C08,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,43.7,value,BRSR_SYNTH_C08_FY2023-24.pdf,37,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+19,C09,FY2023-24,emission_intensity,GHG emission intensity,E,tCO2e per Rs cr,30.42,value,BRSR_SYNTH_C09_FY2023-24.pdf,38,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+20,C10,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,17.23,value,BRSR_SYNTH_C10_FY2023-24.pdf,39,2024-07-15,2024-07-16,SYNTHETIC_DEMO
