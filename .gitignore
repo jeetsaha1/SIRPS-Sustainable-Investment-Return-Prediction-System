@@ -1,54 +1,33 @@
-# Virtual environments
-.venv/
-
-# Local caches
-.cache/
-pip-cache/
+# Python bytecode and caches
 __pycache__/
-
-# Temporary files
-*.tmp
-*.log
-
-
-# Testing cache
+*.py[cod]
+*$py.class
+*.so
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Ruff cache
-.ruff_cache/
-# Python generated files
-*.py[cod]
-.ipynb_checkpoints/
-*.egg-info/
-build/
-dist/
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
 
-# Dataset files (keep directory placeholders)
-data/raw/*
-!data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-!data/processed/company_master.csv
-data/serving/*
-!data/serving/.gitkeep
+# Streamlit
+.streamlit/
+*.streamlit/
 
-# Generated model files (keep directory placeholder)
-models/*
-!models/.gitkeep
-*.pkl
-*.joblib
-*.h5
-*.pt
-*.pth
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Generated results (keep placeholders)
-results/backtest/*
-!results/backtest/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
-results/predictions/*
-!results/predictions/.gitkeep
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch and intermediate extracts
+scratch/
+blueprint_extracted.txt

@@ -1,0 +1,19 @@
+hypothesis,model,scope,delta_msfe,ci_low,ci_high,cw_stat,cw_pvalue,n_dates,inferential_flag,note,data_source
+H1,Ridge,all,-0.0018,-0.0052,0.0014,1.35,0.088,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H1,Ridge,bull,-0.0013,-0.0052,0.0014,1.55,0.073,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H1,Random Forest,all,-0.0008,-0.0052,0.0014,1.75,0.058,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H1,Random Forest,bull,-0.0018,-0.0052,0.0014,1.95,0.043,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H1,XGBoost,all,-0.0013,-0.0052,0.0014,1.35,0.088,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H1,XGBoost,bull,-0.0008,-0.0052,0.0014,1.55,0.073,62,True,B vs Aprime (ESG Value Add),SYNTHETIC_DEMO
+H2,Ridge,all,-0.0018,-0.0052,0.0014,1.75,0.058,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H2,Ridge,bull,-0.0013,-0.0052,0.0014,1.95,0.043,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H2,Random Forest,all,-0.0008,-0.0052,0.0014,1.35,0.088,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H2,Random Forest,bull,-0.0018,-0.0052,0.0014,1.55,0.073,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H2,XGBoost,all,-0.0013,-0.0052,0.0014,1.75,0.058,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H2,XGBoost,bull,-0.0008,-0.0052,0.0014,1.95,0.043,62,True,C vs B (Contextual ESG),SYNTHETIC_DEMO
+H3,Ridge,all,-0.0018,-0.0052,0.0014,1.35,0.088,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
+H3,Ridge,bull,-0.0013,-0.0052,0.0014,1.55,0.073,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
+H3,Random Forest,all,-0.0008,-0.0052,0.0014,1.75,0.058,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
+H3,Random Forest,bull,-0.0018,-0.0052,0.0014,1.95,0.043,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
+H3,XGBoost,all,-0.0013,-0.0052,0.0014,1.35,0.088,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
+H3,XGBoost,bull,-0.0008,-0.0052,0.0014,1.55,0.073,62,True,P vs B (Placebo ESG),SYNTHETIC_DEMO
