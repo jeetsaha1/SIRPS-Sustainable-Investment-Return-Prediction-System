@@ -111,8 +111,10 @@ def test_validate_dataset_schema_rejects_duplicate_primary_keys():
         validate_dataset_schema(df_dup, "company_master")
 
 
-def test_production_mode_raises_file_not_found_on_missing_dataset():
+def test_production_mode_raises_file_not_found_on_missing_dataset(monkeypatch, tmp_path):
     """Verify that load_dataset(name, use_mock=False) strictly raises FileNotFoundError without fallback."""
+    fake_missing_path = tmp_path / "trading_calendar.csv"
+    monkeypatch.setattr("common.io.get_file_path", lambda name, use_mock=False: fake_missing_path)
     with pytest.raises(FileNotFoundError, match="Silent fallback to mock data is disabled in production mode"):
         load_dataset("trading_calendar", use_mock=False)
 
