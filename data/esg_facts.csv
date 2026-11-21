@@ -1,0 +1,321 @@
+fact_id,company_id,fiscal_year,indicator_id,indicator_name,pillar,unit,value,status,source_doc,source_page,filed_date,available_date,data_source
+1,C01,FY2021-22,renewable_share_pct,Renewable energy share,E,%,95.1,value,BRSR_SYNTH_C01_FY2021-22.pdf,34,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+2,C01,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,22.06,value,BRSR_SYNTH_C01_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+3,C01,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,9.71,value,BRSR_SYNTH_C01_FY2021-22.pdf,46,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+4,C01,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,8.04,value,BRSR_SYNTH_C01_FY2021-22.pdf,46,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+5,C01,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,,NR,BRSR_SYNTH_C01_FY2021-22.pdf,45,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+6,C01,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.29,value,BRSR_SYNTH_C01_FY2021-22.pdf,51,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+7,C01,FY2021-22,women_workforce_pct,Women in workforce,S,%,28.8,value,BRSR_SYNTH_C01_FY2021-22.pdf,62,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+8,C01,FY2021-22,independent_directors_pct,Independent directors share,G,%,66.4,value,BRSR_SYNTH_C01_FY2021-22.pdf,66,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+9,C02,FY2021-22,renewable_share_pct,Renewable energy share,E,%,,NR,BRSR_SYNTH_C02_FY2021-22.pdf,35,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+10,C02,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,24.18,value,BRSR_SYNTH_C02_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+11,C02,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,10.85,value,BRSR_SYNTH_C02_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+12,C02,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,7.2,value,BRSR_SYNTH_C02_FY2021-22.pdf,39,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+13,C02,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,77.2,value,BRSR_SYNTH_C02_FY2021-22.pdf,39,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+14,C02,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.27,value,BRSR_SYNTH_C02_FY2021-22.pdf,53,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+15,C02,FY2021-22,women_workforce_pct,Women in workforce,S,%,25.1,value,BRSR_SYNTH_C02_FY2021-22.pdf,61,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+16,C02,FY2021-22,independent_directors_pct,Independent directors share,G,%,61.0,value,BRSR_SYNTH_C02_FY2021-22.pdf,67,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+17,C03,FY2021-22,renewable_share_pct,Renewable energy share,E,%,63.9,value,BRSR_SYNTH_C03_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+18,C03,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,35.65,value,BRSR_SYNTH_C03_FY2021-22.pdf,33,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+19,C03,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,,NR,BRSR_SYNTH_C03_FY2021-22.pdf,34,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+20,C03,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,11.02,value,BRSR_SYNTH_C03_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+21,C03,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,83.0,value,BRSR_SYNTH_C03_FY2021-22.pdf,40,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+22,C03,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.4,value,BRSR_SYNTH_C03_FY2021-22.pdf,54,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+23,C03,FY2021-22,women_workforce_pct,Women in workforce,S,%,29.1,value,BRSR_SYNTH_C03_FY2021-22.pdf,53,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+24,C03,FY2021-22,independent_directors_pct,Independent directors share,G,%,56.1,value,BRSR_SYNTH_C03_FY2021-22.pdf,72,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+25,C04,FY2021-22,renewable_share_pct,Renewable energy share,E,%,62.5,value,BRSR_SYNTH_C04_FY2021-22.pdf,47,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+26,C04,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,53.12,value,BRSR_SYNTH_C04_FY2021-22.pdf,34,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+27,C04,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,26.28,value,BRSR_SYNTH_C04_FY2021-22.pdf,41,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+28,C04,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C04_FY2021-22.pdf,41,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+29,C04,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,91.8,value,BRSR_SYNTH_C04_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+30,C04,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.47,value,BRSR_SYNTH_C04_FY2021-22.pdf,58,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+31,C04,FY2021-22,women_workforce_pct,Women in workforce,S,%,29.0,value,BRSR_SYNTH_C04_FY2021-22.pdf,50,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+32,C04,FY2021-22,independent_directors_pct,Independent directors share,G,%,53.4,value,BRSR_SYNTH_C04_FY2021-22.pdf,70,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+33,C05,FY2021-22,renewable_share_pct,Renewable energy share,E,%,55.0,value,BRSR_SYNTH_C05_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+34,C05,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,58.05,value,BRSR_SYNTH_C05_FY2021-22.pdf,42,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+35,C05,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,28.97,value,BRSR_SYNTH_C05_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+36,C05,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C05_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+37,C05,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,67.6,value,BRSR_SYNTH_C05_FY2021-22.pdf,46,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+38,C05,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.92,value,BRSR_SYNTH_C05_FY2021-22.pdf,54,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+39,C05,FY2021-22,women_workforce_pct,Women in workforce,S,%,31.1,value,BRSR_SYNTH_C05_FY2021-22.pdf,58,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+40,C05,FY2021-22,independent_directors_pct,Independent directors share,G,%,56.8,value,BRSR_SYNTH_C05_FY2021-22.pdf,73,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+41,C06,FY2021-22,renewable_share_pct,Renewable energy share,E,%,53.6,value,BRSR_SYNTH_C06_FY2021-22.pdf,32,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+42,C06,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,65.14,value,BRSR_SYNTH_C06_FY2021-22.pdf,47,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+43,C06,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,33.71,value,BRSR_SYNTH_C06_FY2021-22.pdf,32,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+44,C06,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,14.12,value,BRSR_SYNTH_C06_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+45,C06,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,70.8,value,BRSR_SYNTH_C06_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+46,C06,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.81,value,BRSR_SYNTH_C06_FY2021-22.pdf,55,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+47,C06,FY2021-22,women_workforce_pct,Women in workforce,S,%,31.7,value,BRSR_SYNTH_C06_FY2021-22.pdf,58,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+48,C06,FY2021-22,independent_directors_pct,Independent directors share,G,%,51.4,value,BRSR_SYNTH_C06_FY2021-22.pdf,75,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+49,C07,FY2021-22,renewable_share_pct,Renewable energy share,E,%,79.4,value,BRSR_SYNTH_C07_FY2021-22.pdf,41,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+50,C07,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,25.07,value,BRSR_SYNTH_C07_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+51,C07,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,14.52,value,BRSR_SYNTH_C07_FY2021-22.pdf,39,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+52,C07,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C07_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+53,C07,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,76.0,value,BRSR_SYNTH_C07_FY2021-22.pdf,40,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+54,C07,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.2,value,BRSR_SYNTH_C07_FY2021-22.pdf,60,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+55,C07,FY2021-22,women_workforce_pct,Women in workforce,S,%,24.8,value,BRSR_SYNTH_C07_FY2021-22.pdf,50,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+56,C07,FY2021-22,independent_directors_pct,Independent directors share,G,%,57.6,value,BRSR_SYNTH_C07_FY2021-22.pdf,77,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+57,C08,FY2021-22,renewable_share_pct,Renewable energy share,E,%,65.7,value,BRSR_SYNTH_C08_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+58,C08,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,,NA,BRSR_SYNTH_C08_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+59,C08,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,13.93,value,BRSR_SYNTH_C08_FY2021-22.pdf,35,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+60,C08,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,9.01,value,BRSR_SYNTH_C08_FY2021-22.pdf,34,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+61,C08,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,,NA,BRSR_SYNTH_C08_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+62,C08,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.26,value,BRSR_SYNTH_C08_FY2021-22.pdf,55,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+63,C08,FY2021-22,women_workforce_pct,Women in workforce,S,%,26.4,value,BRSR_SYNTH_C08_FY2021-22.pdf,53,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+64,C08,FY2021-22,independent_directors_pct,Independent directors share,G,%,54.5,value,BRSR_SYNTH_C08_FY2021-22.pdf,70,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+65,C09,FY2021-22,renewable_share_pct,Renewable energy share,E,%,59.4,value,BRSR_SYNTH_C09_FY2021-22.pdf,38,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+66,C09,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,34.01,value,BRSR_SYNTH_C09_FY2021-22.pdf,47,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+67,C09,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,18.51,value,BRSR_SYNTH_C09_FY2021-22.pdf,36,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+68,C09,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,11.71,value,BRSR_SYNTH_C09_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+69,C09,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,76.5,value,BRSR_SYNTH_C09_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+70,C09,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.33,value,BRSR_SYNTH_C09_FY2021-22.pdf,58,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+71,C09,FY2021-22,women_workforce_pct,Women in workforce,S,%,26.5,value,BRSR_SYNTH_C09_FY2021-22.pdf,50,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+72,C09,FY2021-22,independent_directors_pct,Independent directors share,G,%,60.3,value,BRSR_SYNTH_C09_FY2021-22.pdf,77,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+73,C10,FY2021-22,renewable_share_pct,Renewable energy share,E,%,71.4,value,BRSR_SYNTH_C10_FY2021-22.pdf,41,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+74,C10,FY2021-22,energy_intensity,Energy intensity,E,GJ per Rs cr,41.98,value,BRSR_SYNTH_C10_FY2021-22.pdf,37,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+75,C10,FY2021-22,emission_intensity,Emission intensity,E,tCO2e per Rs cr,16.58,value,BRSR_SYNTH_C10_FY2021-22.pdf,46,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+76,C10,FY2021-22,water_intensity,Water intensity,E,kL per Rs cr,14.23,value,BRSR_SYNTH_C10_FY2021-22.pdf,43,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+77,C10,FY2021-22,waste_recovery_pct,Waste recovery rate,E,%,96.3,value,BRSR_SYNTH_C10_FY2021-22.pdf,33,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+78,C10,FY2021-22,ltifr,Lost time injury frequency rate,S,per million hours,0.7,value,BRSR_SYNTH_C10_FY2021-22.pdf,57,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+79,C10,FY2021-22,women_workforce_pct,Women in workforce,S,%,25.1,value,BRSR_SYNTH_C10_FY2021-22.pdf,59,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+80,C10,FY2021-22,independent_directors_pct,Independent directors share,G,%,51.9,value,BRSR_SYNTH_C10_FY2021-22.pdf,66,2022-07-15,2022-07-18,SYNTHETIC_DEMO
+81,C01,FY2022-23,renewable_share_pct,Renewable energy share,E,%,93.6,value,BRSR_SYNTH_C01_FY2022-23.pdf,33,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+82,C01,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,22.98,value,BRSR_SYNTH_C01_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+83,C01,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,10.86,value,BRSR_SYNTH_C01_FY2022-23.pdf,32,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+84,C01,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,6.75,value,BRSR_SYNTH_C01_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+85,C01,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,,NR,BRSR_SYNTH_C01_FY2022-23.pdf,33,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+86,C01,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.58,value,BRSR_SYNTH_C01_FY2022-23.pdf,51,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+87,C01,FY2022-23,women_workforce_pct,Women in workforce,S,%,29.3,value,BRSR_SYNTH_C01_FY2022-23.pdf,60,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+88,C01,FY2022-23,independent_directors_pct,Independent directors share,G,%,61.8,value,BRSR_SYNTH_C01_FY2022-23.pdf,65,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+89,C02,FY2022-23,renewable_share_pct,Renewable energy share,E,%,86.5,value,BRSR_SYNTH_C02_FY2022-23.pdf,39,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+90,C02,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,25.64,value,BRSR_SYNTH_C02_FY2022-23.pdf,35,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+91,C02,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,,NR,BRSR_SYNTH_C02_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+92,C02,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,6.98,value,BRSR_SYNTH_C02_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+93,C02,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,78.7,value,BRSR_SYNTH_C02_FY2022-23.pdf,44,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+94,C02,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.42,value,BRSR_SYNTH_C02_FY2022-23.pdf,62,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+95,C02,FY2022-23,women_workforce_pct,Women in workforce,S,%,25.3,value,BRSR_SYNTH_C02_FY2022-23.pdf,59,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+96,C02,FY2022-23,independent_directors_pct,Independent directors share,G,%,63.8,value,BRSR_SYNTH_C02_FY2022-23.pdf,74,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+97,C03,FY2022-23,renewable_share_pct,Renewable energy share,E,%,70.3,value,BRSR_SYNTH_C03_FY2022-23.pdf,40,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+98,C03,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,28.24,value,BRSR_SYNTH_C03_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+99,C03,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,18.16,value,BRSR_SYNTH_C03_FY2022-23.pdf,48,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+100,C03,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,14.67,value,BRSR_SYNTH_C03_FY2022-23.pdf,39,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+101,C03,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,86.8,value,BRSR_SYNTH_C03_FY2022-23.pdf,44,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+102,C03,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.54,value,BRSR_SYNTH_C03_FY2022-23.pdf,62,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+103,C03,FY2022-23,women_workforce_pct,Women in workforce,S,%,28.1,value,BRSR_SYNTH_C03_FY2022-23.pdf,61,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+104,C03,FY2022-23,independent_directors_pct,Independent directors share,G,%,56.5,value,BRSR_SYNTH_C03_FY2022-23.pdf,64,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+105,C04,FY2022-23,renewable_share_pct,Renewable energy share,E,%,73.0,value,BRSR_SYNTH_C04_FY2022-23.pdf,40,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+106,C04,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,,NR,BRSR_SYNTH_C04_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+107,C04,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,21.98,value,BRSR_SYNTH_C04_FY2022-23.pdf,35,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+108,C04,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,13.59,value,BRSR_SYNTH_C04_FY2022-23.pdf,34,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+109,C04,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,97.5,value,BRSR_SYNTH_C04_FY2022-23.pdf,32,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+110,C04,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.84,value,BRSR_SYNTH_C04_FY2022-23.pdf,60,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+111,C04,FY2022-23,women_workforce_pct,Women in workforce,S,%,25.0,value,BRSR_SYNTH_C04_FY2022-23.pdf,62,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+112,C04,FY2022-23,independent_directors_pct,Independent directors share,G,%,56.4,value,BRSR_SYNTH_C04_FY2022-23.pdf,67,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+113,C05,FY2022-23,renewable_share_pct,Renewable energy share,E,%,51.8,value,BRSR_SYNTH_C05_FY2022-23.pdf,44,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+114,C05,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,52.99,value,BRSR_SYNTH_C05_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+115,C05,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,28.68,value,BRSR_SYNTH_C05_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+116,C05,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,12.89,value,BRSR_SYNTH_C05_FY2022-23.pdf,34,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+117,C05,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,,NR,BRSR_SYNTH_C05_FY2022-23.pdf,39,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+118,C05,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.68,value,BRSR_SYNTH_C05_FY2022-23.pdf,59,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+119,C05,FY2022-23,women_workforce_pct,Women in workforce,S,%,26.4,value,BRSR_SYNTH_C05_FY2022-23.pdf,56,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+120,C05,FY2022-23,independent_directors_pct,Independent directors share,G,%,60.3,value,BRSR_SYNTH_C05_FY2022-23.pdf,70,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+121,C06,FY2022-23,renewable_share_pct,Renewable energy share,E,%,56.7,value,BRSR_SYNTH_C06_FY2022-23.pdf,48,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+122,C06,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,56.25,value,BRSR_SYNTH_C06_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+123,C06,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,25.61,value,BRSR_SYNTH_C06_FY2022-23.pdf,34,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+124,C06,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,15.29,value,BRSR_SYNTH_C06_FY2022-23.pdf,42,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+125,C06,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,73.6,value,BRSR_SYNTH_C06_FY2022-23.pdf,42,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+126,C06,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.72,value,BRSR_SYNTH_C06_FY2022-23.pdf,57,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+127,C06,FY2022-23,women_workforce_pct,Women in workforce,S,%,26.7,value,BRSR_SYNTH_C06_FY2022-23.pdf,52,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+128,C06,FY2022-23,independent_directors_pct,Independent directors share,G,%,51.2,value,BRSR_SYNTH_C06_FY2022-23.pdf,76,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+129,C07,FY2022-23,renewable_share_pct,Renewable energy share,E,%,85.8,value,BRSR_SYNTH_C07_FY2022-23.pdf,33,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+130,C07,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,24.91,value,BRSR_SYNTH_C07_FY2022-23.pdf,35,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+131,C07,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,10.89,value,BRSR_SYNTH_C07_FY2022-23.pdf,33,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+132,C07,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,7.38,value,BRSR_SYNTH_C07_FY2022-23.pdf,39,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+133,C07,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,75.9,value,BRSR_SYNTH_C07_FY2022-23.pdf,33,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+134,C07,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.57,value,BRSR_SYNTH_C07_FY2022-23.pdf,50,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+135,C07,FY2022-23,women_workforce_pct,Women in workforce,S,%,23.4,value,BRSR_SYNTH_C07_FY2022-23.pdf,52,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+136,C07,FY2022-23,independent_directors_pct,Independent directors share,G,%,51.5,value,BRSR_SYNTH_C07_FY2022-23.pdf,75,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+137,C08,FY2022-23,renewable_share_pct,Renewable energy share,E,%,63.5,value,BRSR_SYNTH_C08_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+138,C08,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,34.28,value,BRSR_SYNTH_C08_FY2022-23.pdf,45,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+139,C08,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,16.77,value,BRSR_SYNTH_C08_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+140,C08,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,9.15,value,BRSR_SYNTH_C08_FY2022-23.pdf,40,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+141,C08,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,70.0,value,BRSR_SYNTH_C08_FY2022-23.pdf,47,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+142,C08,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.38,value,BRSR_SYNTH_C08_FY2022-23.pdf,61,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+143,C08,FY2022-23,women_workforce_pct,Women in workforce,S,%,,NR,BRSR_SYNTH_C08_FY2022-23.pdf,62,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+144,C08,FY2022-23,independent_directors_pct,Independent directors share,G,%,56.5,value,BRSR_SYNTH_C08_FY2022-23.pdf,77,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+145,C09,FY2022-23,renewable_share_pct,Renewable energy share,E,%,52.9,value,BRSR_SYNTH_C09_FY2022-23.pdf,47,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+146,C09,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,36.16,value,BRSR_SYNTH_C09_FY2022-23.pdf,39,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+147,C09,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,20.07,value,BRSR_SYNTH_C09_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+148,C09,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,10.17,value,BRSR_SYNTH_C09_FY2022-23.pdf,36,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+149,C09,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,,NR,BRSR_SYNTH_C09_FY2022-23.pdf,37,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+150,C09,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.51,value,BRSR_SYNTH_C09_FY2022-23.pdf,56,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+151,C09,FY2022-23,women_workforce_pct,Women in workforce,S,%,26.2,value,BRSR_SYNTH_C09_FY2022-23.pdf,51,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+152,C09,FY2022-23,independent_directors_pct,Independent directors share,G,%,50.4,value,BRSR_SYNTH_C09_FY2022-23.pdf,69,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+153,C10,FY2022-23,renewable_share_pct,Renewable energy share,E,%,71.7,value,BRSR_SYNTH_C10_FY2022-23.pdf,40,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+154,C10,FY2022-23,energy_intensity,Energy intensity,E,GJ per Rs cr,36.8,value,BRSR_SYNTH_C10_FY2022-23.pdf,40,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+155,C10,FY2022-23,emission_intensity,Emission intensity,E,tCO2e per Rs cr,19.18,value,BRSR_SYNTH_C10_FY2022-23.pdf,42,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+156,C10,FY2022-23,water_intensity,Water intensity,E,kL per Rs cr,11.53,value,BRSR_SYNTH_C10_FY2022-23.pdf,36,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+157,C10,FY2022-23,waste_recovery_pct,Waste recovery rate,E,%,96.6,value,BRSR_SYNTH_C10_FY2022-23.pdf,41,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+158,C10,FY2022-23,ltifr,Lost time injury frequency rate,S,per million hours,0.6,value,BRSR_SYNTH_C10_FY2022-23.pdf,51,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+159,C10,FY2022-23,women_workforce_pct,Women in workforce,S,%,29.4,value,BRSR_SYNTH_C10_FY2022-23.pdf,50,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+160,C10,FY2022-23,independent_directors_pct,Independent directors share,G,%,55.9,value,BRSR_SYNTH_C10_FY2022-23.pdf,68,2023-07-15,2023-07-17,SYNTHETIC_DEMO
+161,C01,FY2023-24,renewable_share_pct,Renewable energy share,E,%,93.4,value,BRSR_SYNTH_C01_FY2023-24.pdf,43,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+162,C01,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,23.34,value,BRSR_SYNTH_C01_FY2023-24.pdf,45,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+163,C01,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,12.15,value,BRSR_SYNTH_C01_FY2023-24.pdf,36,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+164,C01,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,7.79,value,BRSR_SYNTH_C01_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+165,C01,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,80.0,value,BRSR_SYNTH_C01_FY2023-24.pdf,43,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+166,C01,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.37,value,BRSR_SYNTH_C01_FY2023-24.pdf,53,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+167,C01,FY2023-24,women_workforce_pct,Women in workforce,S,%,28.4,value,BRSR_SYNTH_C01_FY2023-24.pdf,61,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+168,C01,FY2023-24,independent_directors_pct,Independent directors share,G,%,61.9,value,BRSR_SYNTH_C01_FY2023-24.pdf,76,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+169,C02,FY2023-24,renewable_share_pct,Renewable energy share,E,%,,NA,BRSR_SYNTH_C02_FY2023-24.pdf,47,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+170,C02,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,23.42,value,BRSR_SYNTH_C02_FY2023-24.pdf,48,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+171,C02,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,13.41,value,BRSR_SYNTH_C02_FY2023-24.pdf,40,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+172,C02,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C02_FY2023-24.pdf,42,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+173,C02,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,74.8,value,BRSR_SYNTH_C02_FY2023-24.pdf,38,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+174,C02,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,,NR,BRSR_SYNTH_C02_FY2023-24.pdf,50,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+175,C02,FY2023-24,women_workforce_pct,Women in workforce,S,%,24.6,value,BRSR_SYNTH_C02_FY2023-24.pdf,55,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+176,C02,FY2023-24,independent_directors_pct,Independent directors share,G,%,56.6,value,BRSR_SYNTH_C02_FY2023-24.pdf,74,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+177,C03,FY2023-24,renewable_share_pct,Renewable energy share,E,%,65.4,value,BRSR_SYNTH_C03_FY2023-24.pdf,48,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+178,C03,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,27.52,value,BRSR_SYNTH_C03_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+179,C03,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,17.96,value,BRSR_SYNTH_C03_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+180,C03,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,10.27,value,BRSR_SYNTH_C03_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+181,C03,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,72.8,value,BRSR_SYNTH_C03_FY2023-24.pdf,46,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+182,C03,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.4,value,BRSR_SYNTH_C03_FY2023-24.pdf,62,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+183,C03,FY2023-24,women_workforce_pct,Women in workforce,S,%,24.0,value,BRSR_SYNTH_C03_FY2023-24.pdf,51,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+184,C03,FY2023-24,independent_directors_pct,Independent directors share,G,%,56.3,value,BRSR_SYNTH_C03_FY2023-24.pdf,73,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+185,C04,FY2023-24,renewable_share_pct,Renewable energy share,E,%,66.8,value,BRSR_SYNTH_C04_FY2023-24.pdf,33,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+186,C04,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,49.78,value,BRSR_SYNTH_C04_FY2023-24.pdf,33,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+187,C04,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,17.94,value,BRSR_SYNTH_C04_FY2023-24.pdf,32,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+188,C04,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,16.69,value,BRSR_SYNTH_C04_FY2023-24.pdf,41,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+189,C04,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,90.6,value,BRSR_SYNTH_C04_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+190,C04,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.7,value,BRSR_SYNTH_C04_FY2023-24.pdf,60,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+191,C04,FY2023-24,women_workforce_pct,Women in workforce,S,%,23.6,value,BRSR_SYNTH_C04_FY2023-24.pdf,59,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+192,C04,FY2023-24,independent_directors_pct,Independent directors share,G,%,57.5,value,BRSR_SYNTH_C04_FY2023-24.pdf,72,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+193,C05,FY2023-24,renewable_share_pct,Renewable energy share,E,%,47.0,value,BRSR_SYNTH_C05_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+194,C05,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,63.28,value,BRSR_SYNTH_C05_FY2023-24.pdf,38,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+195,C05,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,32.75,value,BRSR_SYNTH_C05_FY2023-24.pdf,48,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+196,C05,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,19.08,value,BRSR_SYNTH_C05_FY2023-24.pdf,36,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+197,C05,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,66.7,value,BRSR_SYNTH_C05_FY2023-24.pdf,48,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+198,C05,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,1.14,value,BRSR_SYNTH_C05_FY2023-24.pdf,58,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+199,C05,FY2023-24,women_workforce_pct,Women in workforce,S,%,,NR,BRSR_SYNTH_C05_FY2023-24.pdf,53,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+200,C05,FY2023-24,independent_directors_pct,Independent directors share,G,%,65.0,value,BRSR_SYNTH_C05_FY2023-24.pdf,64,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+201,C06,FY2023-24,renewable_share_pct,Renewable energy share,E,%,53.9,value,BRSR_SYNTH_C06_FY2023-24.pdf,38,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+202,C06,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,64.62,value,BRSR_SYNTH_C06_FY2023-24.pdf,32,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+203,C06,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,28.54,value,BRSR_SYNTH_C06_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+204,C06,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,15.5,value,BRSR_SYNTH_C06_FY2023-24.pdf,35,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+205,C06,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,76.0,value,BRSR_SYNTH_C06_FY2023-24.pdf,37,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+206,C06,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.83,value,BRSR_SYNTH_C06_FY2023-24.pdf,56,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+207,C06,FY2023-24,women_workforce_pct,Women in workforce,S,%,28.2,value,BRSR_SYNTH_C06_FY2023-24.pdf,50,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+208,C06,FY2023-24,independent_directors_pct,Independent directors share,G,%,60.9,value,BRSR_SYNTH_C06_FY2023-24.pdf,65,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+209,C07,FY2023-24,renewable_share_pct,Renewable energy share,E,%,92.5,value,BRSR_SYNTH_C07_FY2023-24.pdf,46,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+210,C07,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,30.43,value,BRSR_SYNTH_C07_FY2023-24.pdf,41,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+211,C07,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,13.83,value,BRSR_SYNTH_C07_FY2023-24.pdf,33,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+212,C07,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,7.62,value,BRSR_SYNTH_C07_FY2023-24.pdf,36,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+213,C07,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,,NA,BRSR_SYNTH_C07_FY2023-24.pdf,39,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+214,C07,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.4,value,BRSR_SYNTH_C07_FY2023-24.pdf,54,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+215,C07,FY2023-24,women_workforce_pct,Women in workforce,S,%,27.3,value,BRSR_SYNTH_C07_FY2023-24.pdf,53,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+216,C07,FY2023-24,independent_directors_pct,Independent directors share,G,%,60.4,value,BRSR_SYNTH_C07_FY2023-24.pdf,69,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+217,C08,FY2023-24,renewable_share_pct,Renewable energy share,E,%,63.2,value,BRSR_SYNTH_C08_FY2023-24.pdf,41,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+218,C08,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,,NA,BRSR_SYNTH_C08_FY2023-24.pdf,48,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+219,C08,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,19.42,value,BRSR_SYNTH_C08_FY2023-24.pdf,37,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+220,C08,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,10.88,value,BRSR_SYNTH_C08_FY2023-24.pdf,43,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+221,C08,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,72.2,value,BRSR_SYNTH_C08_FY2023-24.pdf,47,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+222,C08,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.43,value,BRSR_SYNTH_C08_FY2023-24.pdf,55,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+223,C08,FY2023-24,women_workforce_pct,Women in workforce,S,%,28.7,value,BRSR_SYNTH_C08_FY2023-24.pdf,56,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+224,C08,FY2023-24,independent_directors_pct,Independent directors share,G,%,50.8,value,BRSR_SYNTH_C08_FY2023-24.pdf,75,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+225,C09,FY2023-24,renewable_share_pct,Renewable energy share,E,%,68.1,value,BRSR_SYNTH_C09_FY2023-24.pdf,47,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+226,C09,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,25.85,value,BRSR_SYNTH_C09_FY2023-24.pdf,37,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+227,C09,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,17.4,value,BRSR_SYNTH_C09_FY2023-24.pdf,44,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+228,C09,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C09_FY2023-24.pdf,47,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+229,C09,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,65.7,value,BRSR_SYNTH_C09_FY2023-24.pdf,37,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+230,C09,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.32,value,BRSR_SYNTH_C09_FY2023-24.pdf,60,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+231,C09,FY2023-24,women_workforce_pct,Women in workforce,S,%,27.1,value,BRSR_SYNTH_C09_FY2023-24.pdf,56,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+232,C09,FY2023-24,independent_directors_pct,Independent directors share,G,%,56.1,value,BRSR_SYNTH_C09_FY2023-24.pdf,66,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+233,C10,FY2023-24,renewable_share_pct,Renewable energy share,E,%,,NR,BRSR_SYNTH_C10_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+234,C10,FY2023-24,energy_intensity,Energy intensity,E,GJ per Rs cr,36.9,value,BRSR_SYNTH_C10_FY2023-24.pdf,40,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+235,C10,FY2023-24,emission_intensity,Emission intensity,E,tCO2e per Rs cr,20.67,value,BRSR_SYNTH_C10_FY2023-24.pdf,34,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+236,C10,FY2023-24,water_intensity,Water intensity,E,kL per Rs cr,,NR,BRSR_SYNTH_C10_FY2023-24.pdf,33,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+237,C10,FY2023-24,waste_recovery_pct,Waste recovery rate,E,%,92.3,value,BRSR_SYNTH_C10_FY2023-24.pdf,42,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+238,C10,FY2023-24,ltifr,Lost time injury frequency rate,S,per million hours,0.68,value,BRSR_SYNTH_C10_FY2023-24.pdf,56,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+239,C10,FY2023-24,women_workforce_pct,Women in workforce,S,%,30.2,value,BRSR_SYNTH_C10_FY2023-24.pdf,50,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+240,C10,FY2023-24,independent_directors_pct,Independent directors share,G,%,59.3,value,BRSR_SYNTH_C10_FY2023-24.pdf,70,2024-07-15,2024-07-16,SYNTHETIC_DEMO
+241,C01,FY2024-25,renewable_share_pct,Renewable energy share,E,%,,NR,BRSR_SYNTH_C01_FY2024-25.pdf,48,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+242,C01,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,19.31,value,BRSR_SYNTH_C01_FY2024-25.pdf,40,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+243,C01,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,7.6,value,BRSR_SYNTH_C01_FY2024-25.pdf,36,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+244,C01,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,5.87,value,BRSR_SYNTH_C01_FY2024-25.pdf,43,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+245,C01,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,83.1,value,BRSR_SYNTH_C01_FY2024-25.pdf,41,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+246,C01,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.36,value,BRSR_SYNTH_C01_FY2024-25.pdf,53,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+247,C01,FY2024-25,women_workforce_pct,Women in workforce,S,%,31.6,value,BRSR_SYNTH_C01_FY2024-25.pdf,54,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+248,C01,FY2024-25,independent_directors_pct,Independent directors share,G,%,67.4,value,BRSR_SYNTH_C01_FY2024-25.pdf,76,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+249,C02,FY2024-25,renewable_share_pct,Renewable energy share,E,%,83.8,value,BRSR_SYNTH_C02_FY2024-25.pdf,33,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+250,C02,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,32.47,value,BRSR_SYNTH_C02_FY2024-25.pdf,33,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+251,C02,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,12.09,value,BRSR_SYNTH_C02_FY2024-25.pdf,42,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+252,C02,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,7.86,value,BRSR_SYNTH_C02_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+253,C02,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,79.5,value,BRSR_SYNTH_C02_FY2024-25.pdf,48,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+254,C02,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.47,value,BRSR_SYNTH_C02_FY2024-25.pdf,60,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+255,C02,FY2024-25,women_workforce_pct,Women in workforce,S,%,23.7,value,BRSR_SYNTH_C02_FY2024-25.pdf,55,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+256,C02,FY2024-25,independent_directors_pct,Independent directors share,G,%,62.0,value,BRSR_SYNTH_C02_FY2024-25.pdf,67,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+257,C03,FY2024-25,renewable_share_pct,Renewable energy share,E,%,72.8,value,BRSR_SYNTH_C03_FY2024-25.pdf,37,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+258,C03,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,34.59,value,BRSR_SYNTH_C03_FY2024-25.pdf,35,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+259,C03,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,18.83,value,BRSR_SYNTH_C03_FY2024-25.pdf,43,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+260,C03,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,10.7,value,BRSR_SYNTH_C03_FY2024-25.pdf,36,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+261,C03,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,82.3,value,BRSR_SYNTH_C03_FY2024-25.pdf,42,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+262,C03,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.48,value,BRSR_SYNTH_C03_FY2024-25.pdf,55,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+263,C03,FY2024-25,women_workforce_pct,Women in workforce,S,%,29.2,value,BRSR_SYNTH_C03_FY2024-25.pdf,57,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+264,C03,FY2024-25,independent_directors_pct,Independent directors share,G,%,50.2,value,BRSR_SYNTH_C03_FY2024-25.pdf,72,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+265,C04,FY2024-25,renewable_share_pct,Renewable energy share,E,%,72.5,value,BRSR_SYNTH_C04_FY2024-25.pdf,39,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+266,C04,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,45.0,value,BRSR_SYNTH_C04_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+267,C04,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,22.15,value,BRSR_SYNTH_C04_FY2024-25.pdf,42,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+268,C04,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,15.6,value,BRSR_SYNTH_C04_FY2024-25.pdf,41,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+269,C04,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,93.7,value,BRSR_SYNTH_C04_FY2024-25.pdf,45,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+270,C04,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.78,value,BRSR_SYNTH_C04_FY2024-25.pdf,54,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+271,C04,FY2024-25,women_workforce_pct,Women in workforce,S,%,25.6,value,BRSR_SYNTH_C04_FY2024-25.pdf,56,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+272,C04,FY2024-25,independent_directors_pct,Independent directors share,G,%,47.8,value,BRSR_SYNTH_C04_FY2024-25.pdf,75,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+273,C05,FY2024-25,renewable_share_pct,Renewable energy share,E,%,,NR,BRSR_SYNTH_C05_FY2024-25.pdf,47,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+274,C05,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,64.79,value,BRSR_SYNTH_C05_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+275,C05,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,31.86,value,BRSR_SYNTH_C05_FY2024-25.pdf,35,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+276,C05,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,14.36,value,BRSR_SYNTH_C05_FY2024-25.pdf,40,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+277,C05,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,63.4,value,BRSR_SYNTH_C05_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+278,C05,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,1.0,value,BRSR_SYNTH_C05_FY2024-25.pdf,57,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+279,C05,FY2024-25,women_workforce_pct,Women in workforce,S,%,25.4,value,BRSR_SYNTH_C05_FY2024-25.pdf,57,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+280,C05,FY2024-25,independent_directors_pct,Independent directors share,G,%,53.1,value,BRSR_SYNTH_C05_FY2024-25.pdf,74,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+281,C06,FY2024-25,renewable_share_pct,Renewable energy share,E,%,38.9,value,BRSR_SYNTH_C06_FY2024-25.pdf,47,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+282,C06,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,65.67,value,BRSR_SYNTH_C06_FY2024-25.pdf,46,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+283,C06,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,39.43,value,BRSR_SYNTH_C06_FY2024-25.pdf,47,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+284,C06,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,19.75,value,BRSR_SYNTH_C06_FY2024-25.pdf,39,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+285,C06,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,71.1,value,BRSR_SYNTH_C06_FY2024-25.pdf,37,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+286,C06,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.88,value,BRSR_SYNTH_C06_FY2024-25.pdf,53,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+287,C06,FY2024-25,women_workforce_pct,Women in workforce,S,%,27.0,value,BRSR_SYNTH_C06_FY2024-25.pdf,58,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+288,C06,FY2024-25,independent_directors_pct,Independent directors share,G,%,51.6,value,BRSR_SYNTH_C06_FY2024-25.pdf,75,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+289,C07,FY2024-25,renewable_share_pct,Renewable energy share,E,%,84.0,value,BRSR_SYNTH_C07_FY2024-25.pdf,42,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+290,C07,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,23.69,value,BRSR_SYNTH_C07_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+291,C07,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,14.71,value,BRSR_SYNTH_C07_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+292,C07,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,7.04,value,BRSR_SYNTH_C07_FY2024-25.pdf,42,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+293,C07,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,80.2,value,BRSR_SYNTH_C07_FY2024-25.pdf,35,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+294,C07,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.59,value,BRSR_SYNTH_C07_FY2024-25.pdf,59,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+295,C07,FY2024-25,women_workforce_pct,Women in workforce,S,%,23.7,value,BRSR_SYNTH_C07_FY2024-25.pdf,62,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+296,C07,FY2024-25,independent_directors_pct,Independent directors share,G,%,,NA,BRSR_SYNTH_C07_FY2024-25.pdf,71,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+297,C08,FY2024-25,renewable_share_pct,Renewable energy share,E,%,63.9,value,BRSR_SYNTH_C08_FY2024-25.pdf,41,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+298,C08,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,27.31,value,BRSR_SYNTH_C08_FY2024-25.pdf,33,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+299,C08,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,18.35,value,BRSR_SYNTH_C08_FY2024-25.pdf,41,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+300,C08,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,10.01,value,BRSR_SYNTH_C08_FY2024-25.pdf,33,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+301,C08,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,74.2,value,BRSR_SYNTH_C08_FY2024-25.pdf,34,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+302,C08,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.7,value,BRSR_SYNTH_C08_FY2024-25.pdf,55,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+303,C08,FY2024-25,women_workforce_pct,Women in workforce,S,%,25.9,value,BRSR_SYNTH_C08_FY2024-25.pdf,61,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+304,C08,FY2024-25,independent_directors_pct,Independent directors share,G,%,49.4,value,BRSR_SYNTH_C08_FY2024-25.pdf,66,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+305,C09,FY2024-25,renewable_share_pct,Renewable energy share,E,%,55.9,value,BRSR_SYNTH_C09_FY2024-25.pdf,47,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+306,C09,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,32.96,value,BRSR_SYNTH_C09_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+307,C09,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,19.7,value,BRSR_SYNTH_C09_FY2024-25.pdf,38,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+308,C09,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,9.34,value,BRSR_SYNTH_C09_FY2024-25.pdf,36,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+309,C09,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,71.9,value,BRSR_SYNTH_C09_FY2024-25.pdf,37,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+310,C09,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.45,value,BRSR_SYNTH_C09_FY2024-25.pdf,50,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+311,C09,FY2024-25,women_workforce_pct,Women in workforce,S,%,,NR,BRSR_SYNTH_C09_FY2024-25.pdf,57,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+312,C09,FY2024-25,independent_directors_pct,Independent directors share,G,%,57.5,value,BRSR_SYNTH_C09_FY2024-25.pdf,66,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+313,C10,FY2024-25,renewable_share_pct,Renewable energy share,E,%,73.7,value,BRSR_SYNTH_C10_FY2024-25.pdf,43,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+314,C10,FY2024-25,energy_intensity,Energy intensity,E,GJ per Rs cr,44.19,value,BRSR_SYNTH_C10_FY2024-25.pdf,36,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+315,C10,FY2024-25,emission_intensity,Emission intensity,E,tCO2e per Rs cr,18.66,value,BRSR_SYNTH_C10_FY2024-25.pdf,38,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+316,C10,FY2024-25,water_intensity,Water intensity,E,kL per Rs cr,14.8,value,BRSR_SYNTH_C10_FY2024-25.pdf,44,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+317,C10,FY2024-25,waste_recovery_pct,Waste recovery rate,E,%,98.0,value,BRSR_SYNTH_C10_FY2024-25.pdf,40,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+318,C10,FY2024-25,ltifr,Lost time injury frequency rate,S,per million hours,0.58,value,BRSR_SYNTH_C10_FY2024-25.pdf,60,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+319,C10,FY2024-25,women_workforce_pct,Women in workforce,S,%,29.9,value,BRSR_SYNTH_C10_FY2024-25.pdf,61,2025-07-15,2025-07-16,SYNTHETIC_DEMO
+320,C10,FY2024-25,independent_directors_pct,Independent directors share,G,%,56.9,value,BRSR_SYNTH_C10_FY2024-25.pdf,66,2025-07-15,2025-07-16,SYNTHETIC_DEMO

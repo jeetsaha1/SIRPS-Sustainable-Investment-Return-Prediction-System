@@ -49,7 +49,13 @@ def _read_and_validate_csv(file_path: Path, schema_name: str) -> pd.DataFrame:
     schema = SCHEMAS.get(schema_name)
     date_cols = schema.date_columns if schema else []
     
-    df = pd.read_csv(file_path)
+    if schema_name == "esg_facts":
+        # Preserve literal 'NA' as valid categorical status string, not NaN
+        df = pd.read_csv(file_path, keep_default_na=False, na_values=["", "NaN", "nan", "null", "NULL", "None"])
+        if "value" in df.columns:
+            df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    else:
+        df = pd.read_csv(file_path)
     
     # Run comprehensive schema, primary key, nullability, and provenance validator
     if schema is not None:

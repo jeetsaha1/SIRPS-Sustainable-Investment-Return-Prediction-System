@@ -28,25 +28,25 @@ import data_generation.config as config
 def test_company_master_integrity():
     """Validates data/company_master.csv against research specifications."""
     df = load("company_master", use_mock=False)
-    
+
     # 1. Size and IDs
     assert len(df) == 10, f"Expected exactly 10 companies, got {len(df)}"
     assert df["company_id"].nunique() == 10, "Duplicate company_id found"
     assert df["ticker"].nunique() == 10, "Duplicate ticker found"
     assert sorted(df["company_id"].tolist()) == [f"C{i:02d}" for i in range(1, 11)]
-    
+
     # 2. Sector Distribution
     sector_counts = df["sector"].value_counts().to_dict()
     assert sector_counts == config.REQUIRED_SECTOR_COUNTS, f"Sector distribution mismatch: {sector_counts}"
-    
+
     # 3. Base Price Bounds (₹150–₹900)
     assert (df["base_price"] >= config.BASE_PRICE_BOUNDS[0]).all(), "Base price below 150"
     assert (df["base_price"] <= config.BASE_PRICE_BOUNDS[1]).all(), "Base price above 900"
-    
+
     # 4. Listing Date (Before 2020-01-01)
     # df["listing_date"] is converted to datetime by common.io
     assert (df["listing_date"] < pd.to_datetime(config.MAX_LISTING_DATE)).all(), "Listing date not before 2020-01-01"
-    
+
     # 5. Provenance and Flags
     assert (df["is_synthetic"] == True).all(), "is_synthetic must be True"
     assert (df["data_source"] == "SYNTHETIC_DEMO").all(), "data_source must be SYNTHETIC_DEMO"
@@ -55,24 +55,24 @@ def test_company_master_integrity():
 def test_latent_profiles_integrity():
     """Validates data/latent_profiles.csv against latent factor specifications."""
     df = load("latent_profiles", use_mock=False)
-    
+
     # 1. Shape and IDs
     assert len(df) == 60, f"Expected 60 records (10 firms × 6 years), got {len(df)}"
     assert df["company_id"].nunique() == 10, "Expected 10 unique companies"
     assert df.groupby("company_id")["fiscal_year"].nunique().eq(6).all(), "Each firm must have 6 fiscal years"
-    
+
     # 2. Bounded Latent Scores in [-2, +2]
     for col in ["esg_latent_score", "quality_latent_score", "risk_latent_score", "growth_latent_score"]:
         assert (df[col] >= config.LATENT_SCORE_BOUNDS[0]).all(), f"{col} has values < -2"
         assert (df[col] <= config.LATENT_SCORE_BOUNDS[1]).all(), f"{col} has values > +2"
         assert not df[col].isna().any(), f"{col} contains null values"
         assert not np.isinf(df[col]).any(), f"{col} contains infinite values"
-        
+
     # 3. Parameter Bounds
     assert (df["beta"] >= config.BETA_BOUNDS[0]).all() and (df["beta"] <= config.BETA_BOUNDS[1]).all(), "Beta out of bounds"
     assert (df["idio_volatility"] >= config.IDIO_VOLATILITY_BOUNDS[0]).all() and (df["idio_volatility"] <= config.IDIO_VOLATILITY_BOUNDS[1]).all(), "Idio vol out of bounds"
     assert (df["base_drift"] >= config.BASE_DRIFT_BOUNDS[0]).all() and (df["base_drift"] <= config.BASE_DRIFT_BOUNDS[1]).all(), "Base drift out of bounds"
-    
+
     # 4. Provenance
     assert (df["data_source"] == "SYNTHETIC_DEMO").all(), "data_source must be SYNTHETIC_DEMO"
 
@@ -81,22 +81,59 @@ def test_mock_datasets_compliance():
     for schema_name, schema in SCHEMAS.items():
         mock_path = get_file_path(schema_name, use_mock=True)
         assert mock_path.exists(), f"Mock file for schema '{schema_name}' missing at: {mock_path}"
-        
+
         df = pd.read_csv(mock_path)
         assert len(df) >= 10, f"Mock file for '{schema_name}' has insufficient rows ({len(df)})"
-        
+
         # Verify all required columns exist
         missing = [c for c in schema.required_columns if c not in df.columns]
         assert not missing, f"Mock '{schema_name}' missing columns: {missing}"
-        
+
         # Verify provenance
         assert "data_source" in df.columns, f"Mock '{schema_name}' missing 'data_source'"
         assert (df["data_source"] == "SYNTHETIC_DEMO").all(), f"Mock '{schema_name}' has invalid data_source"
-        
+
         # Verify no unexpected infinities in numeric columns
         num_cols = df.select_dtypes(include=[np.number]).columns
         for nc in num_cols:
             assert not np.isinf(df[nc]).any(), f"Mock '{schema_name}' column '{nc}' has infinite values"
+
+def test_esg_data_integrity():
+    """Validates data/esg_facts.csv and data/esg_scores.csv against Blueprint Section 5.5."""
+    df_facts = load("esg_facts", use_mock=False)
+    assert len(df_facts) == 320, f"Expected 320 ESG facts, got {len(df_facts)}"
+
+    # 1. NR rows have empty values (never zero-filled)
+    nr_rows = df_facts[df_facts["status"].isin(["NR", "NA"])]
+    assert nr_rows["value"].isna().all(), "NR/NA rows must have null values"
+
+    # 2. Percent indicators in [0, 100]
+    pct_inds = ["renewable_share_pct", "waste_recovery_pct", "women_workforce_pct", "independent_directors_pct"]
+    for ind in pct_inds:
+        vals = df_facts.loc[(df_facts["indicator_id"] == ind) & (df_facts["status"] == "value"), "value"]
+        assert (vals >= 0.0).all() and (vals <= 100.0).all(), f"{ind} out of [0, 100]"
+
+    # 3. Intensity indicators strictly positive
+    for ind in ["energy_intensity", "emission_intensity", "water_intensity"]:
+        vals = df_facts.loc[(df_facts["indicator_id"] == ind) & (df_facts["status"] == "value"), "value"]
+        assert (vals > 0.0).all(), f"{ind} must be > 0"
+
+    # 4. ESG Scores validation
+    df_scores = load("esg_scores", use_mock=False)
+    assert len(df_scores) == 40, f"Expected 40 ESG scores, got {len(df_scores)}"
+    for sc in ["e_score", "s_score", "g_score", "esg_total"]:
+        scores = df_scores[sc].dropna()
+        assert (scores >= 0.0).all() and (scores <= 100.0).all(), f"{sc} out of [0, 100]"
+
+    for cov in ["coverage_ratio", "e_coverage", "s_coverage", "g_coverage"]:
+        c = df_scores[cov]
+        assert (c >= 0.0).all() and (c <= 1.0).all(), f"{cov} out of [0, 1]"
+
+    # 5. Pillar score present only if coverage >= 60%
+    assert df_scores.loc[df_scores["e_coverage"] < 0.60, "e_score"].isna().all()
+    assert df_scores.loc[df_scores["s_coverage"] < 0.60, "s_score"].isna().all()
+    assert df_scores.loc[df_scores["g_coverage"] < 0.60, "g_score"].isna().all()
+
 
 def run_all_validation():
     """Runs all validation tests directly and prints human-readable summary."""
@@ -105,9 +142,12 @@ def run_all_validation():
     print("✓ Company Master validation passed.")
     test_latent_profiles_integrity()
     print("✓ Latent Profiles validation passed.")
+    test_esg_data_integrity()
+    print("✓ ESG Datasets validation passed.")
     test_mock_datasets_compliance()
     print("✓ Mock Datasets schema compliance passed.")
-    print("All foundational data validation checks succeeded!")
+    print("All foundational and ESG data validation checks succeeded!")
+
 
 if __name__ == "__main__":
     run_all_validation()
